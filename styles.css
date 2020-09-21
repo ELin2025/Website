@@ -4,23 +4,50 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-h1 {
+#Title{
   color: blue;
-}
-p {
-  color: red;
-  border: 2px solid green;
-}
-table{
-  color: white;
-  border: 1px solid white
-}
+  text-align: left;
+  position: relative;
+  margin: 0px auto;
+  z-index: 1;
 
-th,td{
-  color: white;
-  border: 1px solid white
 }
-
-ul{
-  color: pink;
+nav{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.nav-links{
+  flex:1;
+  text-align:center;
+}
+.nav-links ul li{
+  list-style:none;
+  display: inline-block;
+  margin: 0 20px
+}
+.nav-links ul li a{
+  color: blue;
+  text-decoration:none;
+}
+.information{
+  width:1000px;
+  height: 1000px;
+  position:absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+#circle{
+  z-index: -1;
+  width:1000px;
+  height: 1000px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background:#ccc;
 }
