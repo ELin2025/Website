@@ -4,11 +4,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-#Title{
+.Title{
   color: blue;
-  text-align: left;
+  text-align: center;
   position: relative;
   margin: 0px auto;
+  left: 20px;
   z-index: 1;
 
 }
@@ -41,13 +42,44 @@ nav{
   left: -10%;
   transform: translateY(-50%);
 }
+.feature{
+  width: 350px;
+  color: blue;
+  position: relative;
+  text-align: center;
+  top: 70px;
+  left: 80px;
+}
 #circle{
   z-index: -1;
-  width:1000px;
-  height: 1000px;
+  width:500px;
+  height: 500px;
   position:absolute;
-  top: 0;
-  left: 0;
+  top: 260px;
+  left: 525px;
   border-radius: 50%;
-  background:#ccc;
+  background:white;
+}
+.links{
+  width: 500px;
+  color: blue;
+  position: relative;
+  text-align: center;
+  top: 40px;
+  left: 230px;
+}
+.links ul li{
+  list-style: none;
+  margin: 20px;
+  font-size: 15px;
+}
+#Lcircle{
+    z-index: -1;
+    width:1000px;
+    height: 1000px;
+    position:absolute;
+    top: 300px;
+    left: 280px;
+    border-radius: 50%;
+    background:white;
 }
